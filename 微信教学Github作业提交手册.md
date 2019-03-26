@@ -39,13 +39,15 @@
             具体操作是，在命令行输入：<br>
                  git config --global user.email "注册git用的邮箱"<br>
                  git config --global user.email "git的账户名"<br>   
-        -----这个部分不操作也行-----
+        ---
+        **这个部分不操作也行**<br>
         d). 由于本地Git仓库和Github仓库之间的传输是通过SSH加密的，所以连接时需要设置一下：首先创建SSH KEY。先看一下你C:\users\Admnistrator用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和id_rsa.pub这两个文件，有就跳到下一步，没有就通过下面命令创建:<br>
         $ ssh-keygen -t rsa -C "youremail@example.com" <br>
         **注意："youremail@example.com"是你注册github帐号的邮箱，命令行字母有区分大小写！！<br>**
         然后一路回车。这时你就会在用户下的.ssh目录里找到id_rsa和id_rsa.pub这两个文件<br>
         e). 登录Github,找到右上角的图标，打开点进里面的Settings，再选中里面的SSH and GPG KEYS，点击右上角的New SSH key，然后Title里面随便填，再把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面，最后点击Add SSH key，这样就完成了SSH Key的加密。<br>
-        ------
+        
+        ---
         
         f) 继续输入：git push wx master<br>
            第一次执行过程中会弹出登录窗口（git Login）,输入Github的帐号和密码即可，完成远程仓库的更新。<br>
