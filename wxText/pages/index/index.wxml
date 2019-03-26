@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="tr">
+<image src="../../images/1.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/4.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/5.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/11.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/6.jpg"
+style="width: 217px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/2.jpg"
+style="width: 212px;" mode ="widthFix"></image>
+<image src="../../images/3.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/8.jpg"
+style="width: 229px;" mode ="widthFix"></image>
+<image src="../../images/7.jpg"
+style="width: 217px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<image src="../../images/10.jpg" 
+style="width: 358px;" mode ="widthFix"></image>
+</view>
+
+<view class="tr">
+<navigator url='../index/index'>
+<image src="../../images/home2_r5_c1.gif"
+style="width: 78px;" mode ="widthFix"></image></navigator>
+<navigator  url='../lyb/lyb'>
+<image src="../../images/home2_r5_c2.gif"
+style="width: 90px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/Tools'>
+<image src="../../images/home2_r5_c4.gif"
+style="width: 100px;" mode ="widthFix"></image></navigator>
+<navigator  url='../map/map'>
+<image src="../../images/home2_r5_c6.gif"
+style="width: 105px;" mode ="widthFix"></image></navigator>
+</view>
