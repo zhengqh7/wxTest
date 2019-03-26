@@ -7,7 +7,8 @@
     "pages/orders/orders",
     "pages/Login/login",
     "pages/Tools/tools",
-    "pages/message board/message board"
+    "pages/message board/message board",
+    "pages/ditu/ditu"
   ],
   "window": {
     "backgroundTextStyle": "light",
