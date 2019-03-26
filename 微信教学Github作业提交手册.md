@@ -31,7 +31,7 @@
            本行输入完成后，系统没有任何提示,表示执行成功。<br>
         c). 继续输入：git commit -m "第一次作业，提交图片"<br>
            本行输入正确，系统会在屏幕上提示最新修改的十个文件，因为不支持中文，你可能看到个别乱码，但没有影响<br>
-           **特别注意：有部分同学在这里输入命令后会提示：<br>**
+           ~**特别注意：有部分同学在这里输入命令后会提示：<br>**
                  run<br>
                  git config --global user.email "your@example.com"<br>
                  git config --global user.email "yourname"<br>
@@ -39,7 +39,7 @@
             具体操作是，在命令行输入：<br>
                  git config --global user.email "注册git用的邮箱"<br>
                  git config --global user.email "git的账户名"<br>   
-        **以下这个部分不操作也行**<br>
+        **以下这个部分不操作也行**<br>~
         d). 由于本地Git仓库和Github仓库之间的传输是通过SSH加密的，所以连接时需要设置一下：首先创建SSH KEY。先看一下你C:\users\Admnistrator用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和id_rsa.pub这两个文件，有就跳到下一步，没有就通过下面命令创建:<br>
         $ ssh-keygen -t rsa -C "youremail@example.com" <br>
         **注意："youremail@example.com"是你注册github帐号的邮箱，命令行字母有区分大小写！！<br>**
