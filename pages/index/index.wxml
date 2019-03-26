@@ -1,42 +1,64 @@
 <!--index.wxml-->
 <view class="tr">
-<image src="../../images/home2_r1_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
+<image src="../../images/1_index_02.jpg" 
+style="width: 375px;" mode ="widthFix"></image>
 </view>
+<view class="tr"> 
+<image src="../../images/1_index_03.jpg" 
+style="width: 375px;height:50px;" mode ="widthFix"></image>
+</view>
+
+
 <view class="tr">
-<image src="../../images/home2_r2_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
+<image src="../../images/1_index_04.jpg"
+style="width:375px; height:25px;" class='undertitle' ></image>
+
+  <navigator  url='../Tools/tools'>
+  <image class='undertitle_first' src="../../images/1_index_05.gif"
+style="width:90px;height:18px;" ></image> </navigator>
+
+<navigator  url='../Tools/tools'>
+<image class='undertitle_second' src="../../images/1_index_06.gif"
+style="width:90px;height:18px;"></image></navigator>
+
+<navigator  url='../Tools/tools'>
+<image class='undertitle_third' src="../../images/1_index_07.gif"
+style="width:90px;height:18px;"></image></navigator>
+
+<image class='undertitle_fourth' src="../../images/1_index_08.gif"
+style="width:40px;height:18px;"></image>  
 </view>
 
 <view class="tr">
-<image src="../../images/home2_r3_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
+<image src="../../images/1_index_09.jpg"
+style="width:375px;height:385px;"></image>
+</view>
+<view class="tr">
+<image  src="../../images/1_index_10.jpg"
+style="width:375px;"></image>
 </view>
 
-<view class="tr">
-<image src="../../images/home2_r4_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
-</view>
-
-<view class="tr">
+<!-- <view class="tr">
+<image class="coverbg" src="../../images/1_index_03.jpg" 
+style="width:375px;"mode="widthFix"></image>
+</view> -->
+ <view class="tr">
 <navigator url='../index/index'>
-<image src="../../images/home2_r5_c1.gif"
-style="width: 76px;" mode ="widthFix"></image></navigator>
+<image class="home" src="../../images/1_index_11.jpg"
+style="width: 120px;" mode ="widthFix"></image></navigator>
 <navigator  url='../lists/lists'>
-<image src="../../images/home2_r5_c2.gif"
-style="width: 88px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lyb/lyb'>
-<image src="../../images/home2_r5_c4.gif"
-style="width: 98px;" mode ="widthFix"></image></navigator>
+<image class='communication' src="../../images/1_index_12.jpg"
+style="width:100px;" mode ="widthFix"></image></navigator>
+<navigator  url='../Tools/tools'>
+<image class="imformation" src="../../images/1_index_13.jpg"
+style="width: 100px;" mode ="widthFix"></image></navigator>
 <navigator  url='../Login/login'>
-<image src="../../images/home2_r5_c6.gif"
-style="width: 103px;" mode ="widthFix"></image></navigator>
+<image class="person" src="../../images/Image 1.jpg"
+style="width: 100px;" mode ="widthFix"></image></navigator>
 </view>
+
+<view class="tr">
+<image class="bottom" src="../../images/1_index_15.jpg" 
+style="width:375px;"mode="widthFix"></image>
+</view>
+
