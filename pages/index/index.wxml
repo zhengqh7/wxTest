@@ -3,11 +3,13 @@
 <image src="../../images/1.png" 
 style="width: 358px" mode ="widthFix"></image>
 </view>
+
 <view class="tr">
 <navigator url='../index/index'>
 <image src="../../images/home2_r5_c1.gif"
 style="width: 76px;" mode ="widthFix"></image></navigator>
 <navigator  url='../message board/message board'>
+
 <image src="../../images/home2_r5_c2.gif"
 style="width: 88px;" mode ="widthFix"></image></navigator>
 <navigator  url='../ditu/ditu'>

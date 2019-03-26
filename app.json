@@ -10,6 +10,8 @@
     "pages/message board/message board",
     "pages/ditu/ditu"
   ],
+
+  
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
