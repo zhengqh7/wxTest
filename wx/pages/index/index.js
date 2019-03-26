@@ -84,6 +84,7 @@ Page({
         "name": "小米空气净化器 2",
         "summary": "全新空气增压系统,净化性能高达 310m³/h",
         "pic_url": "http://static.home.mi.com/app/shop/img?id=shop_0b23f4b364ee73bc86b280cc7397638c.jpg&w=420&h=240&crop=a_90_0_240_240"
+      
       },
       {
         "name": "小米手机9 探索版",
