@@ -3,7 +3,6 @@
 	"packOptions": {
 		"ignore": []
 	},
-
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -20,7 +19,6 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -38,6 +36,7 @@
 		"miniprogram": {
 			"current": -1,
 			"list": []
+
 		}
 	}
 }
