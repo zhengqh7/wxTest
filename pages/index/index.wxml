@@ -1,9 +1,9 @@
 <!--index.wxml-->
 <view class="tr">
-<image src="../../images/home2_r1_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
+<image src="../../images/lvyouapp.jpg" 
+style="width: 640px;" mode ="widthFix"></image>
+</view> 
+<!-- <view class="tr">
 <image src="../../images/home2_r2_c1.gif" 
 style="width: 358px;" mode ="widthFix"></image>
 </view>
@@ -39,4 +39,4 @@ style="width: 98px;" mode ="widthFix"></image></navigator>
 <navigator  url='../Login/login'>
 <image src="../../images/home2_r5_c6.gif"
 style="width: 103px;" mode ="widthFix"></image></navigator>
-</view>
+</view> -->
