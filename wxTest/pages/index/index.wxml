@@ -22,7 +22,7 @@ style="width: 140px;" mode ="widthFix"></image></navigator>
 <navigator  url=''>
 <image src="../../images/index_06.jpg"
 style="width: 120px;" mode ="widthFix"></image></navigator>
-<navigator  url=''>
+<navigator  url='../lyb/lyb'>
 <image src="../../images/index_07.jpg"
 style="width: 140px;" mode ="widthFix"></image></navigator>
 </view>
