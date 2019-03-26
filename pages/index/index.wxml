@@ -3,12 +3,6 @@
 <image src="../../images/1.png" 
 style="width: 358px" mode ="widthFix"></image>
 </view>
-
-
-
-
-
-
 <view class="tr">
 <navigator url='../index/index'>
 <image src="../../images/home2_r5_c1.gif"
