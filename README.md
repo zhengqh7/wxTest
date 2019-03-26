@@ -38,7 +38,7 @@ j173303|wengezuishuai|6|0|0|0|0
 j173304|chenjx1|5|0|0|0|0
 j173305|chencaifa|5|0|0|0|0
 j173306|xiajianhua|5|0|0|0|0
-j173307|fanaruto|5|5|5|0|0
+j173307|fanaruto|5|5|5|5|0
 j173308|linjinfu|6|0|0|0|0
 j173309|stlyh594|5|5|0|0|0
 j173310|tangchenzz|5|5|0|0|0
