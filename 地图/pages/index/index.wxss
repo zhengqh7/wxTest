@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 200px;
 }
+.Mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
