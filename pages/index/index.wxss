@@ -3,12 +3,11 @@
   margin:0px;
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  float: left;
 }
 .td {
   width:33.3%;
-  justify-content: center;
+   justify-content: center;
   text-align: center;
   margin:0px;
 }

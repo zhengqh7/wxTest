@@ -1,42 +1,37 @@
 <!--index.wxml-->
 <view class="tr">
-<image src="../../images/home2_r1_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
+<image src="../../images/iphone_02.gif" 
+style="width: 90px;height: 54.5px;"></image>
+<image src="../../images/iphone_03.gif" 
+style="width: 196px;height: 54.5px;"></image>
+<image src="../../images/iphone_04.gif"
+style="width: 89px;height: 54.5px;"></image>
 </view>
 <view class="tr">
-<image src="../../images/home2_r2_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
+<image src="../../images/iphone_05.gif"
+style="width: 375px;height: 172.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_06.gif"
+style="width: 375px;height: 170px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_07.gif"
+style="width: 375px;height: 142.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_08.gif"
+style="width: 375px;height: 58.5px;"></image>
+</view>
+<view class="tr">
+<image src="../../images/iphone_09.gif"
+style="width: 90px;height: 48px;"></image>
+<image src="../../images/iphone_10.gif"
+style="width: 97.5px;height: 48px;"></image>
+<image src="../../images/iphone_11.gif"
+style="width: 98.5px;height: 48px;"></image>
+<image src="../../images/iphone_12.gif"
+style="width: 89px;height: 48px;"></image>
 </view>
 
-<view class="tr">
-<image src="../../images/home2_r3_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
-</view>
 
-<view class="tr">
-<image src="../../images/home2_r4_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
-</view>
-
-<view class="tr">
-<navigator url='../index/index'>
-<image src="../../images/home2_r5_c1.gif"
-style="width: 76px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lists/lists'>
-<image src="../../images/home2_r5_c2.gif"
-style="width: 88px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lyb/lyb'>
-<image src="../../images/home2_r5_c4.gif"
-style="width: 98px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Login/login'>
-<image src="../../images/home2_r5_c6.gif"
-style="width: 103px;" mode ="widthFix"></image></navigator>
-</view>
