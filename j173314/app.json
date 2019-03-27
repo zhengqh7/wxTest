@@ -7,12 +7,13 @@
     "pages/orders/orders",
     "pages/Login/login",
     "pages/Tools/tools",
-    "pages/lyb/lyb"
+    "pages/message board/lyb",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "数字旅者",
+    "navigationBarTitleText": "去旅游",
     "navigationBarTextStyle": "black"
   }
 }
