@@ -12,7 +12,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "数字旅者",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   }
 }

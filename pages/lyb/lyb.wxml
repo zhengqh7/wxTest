@@ -1,23 +1,52 @@
-<!--pages/lyb/lyb.wxml-->
-<text>定单留言</text>
-<view class='message_nav'>
-  <form bindsubmit='FormSubmit'>
-  <view class='section'>
-  <textarea class='message1' type='text' placeholder="请选择或者输入捎话(60字以内)" maxlength='80' style="word- wrap:break-word"  bindinput='bindTextAreaChange' value="{{message}}"></textarea>
+<!--index.wxml-->
+<view class='alltitle'>
+<text>姓名：</text><input type='text' class='border'></input>
 </view>
- <view class='fast'>快速捎话：</view> 
-<checkbox-group class="checkboxChange">
-  <view  wx:for="{{msgData}}" 
-  wx:key="{{index}}" data-index="{{index}}" 
-  data-id="{{item.child_id}}"
-  data-checked='{{item.checked}}'  
-  bindtap='click' >
-    <checkbox  value='{{item.msg}}' 
-    class='item'  
-    checked='{{item.checked}}' >{{item.msg}}
-    </checkbox>
-  </view>
-</checkbox-group>
-<button class='submit' bindtap='submit'>附上留言</button>
-</form>
+<view class='alltitle'>
+<text>性别：</text>
+<radio-group>
+  男<radio value="男" checked='true'/>
+  女<radio value="女"  />
+</radio-group>
 </view>
+<view class='alltitle'>
+<text>爱好：</text>
+<checkbox-group name="checkbox">
+      <label>
+        <checkbox value="eat" />
+        吃
+      </label>
+      <label>
+        <checkbox value="drink" />
+        喝
+      </label>
+         <label>
+        <checkbox value="play" />
+        玩
+      </label>
+      <label>
+        <checkbox value="happy" />
+        乐
+      </label>
+    </checkbox-group>
+</view>
+
+<view class="section alltitle">
+  <view class="section__title">出生日期</view>
+  <picker
+    mode="date"
+    value="{{date}}"
+    start="1996-06-08"
+    end="2019-06-08"
+    bindchange="bindDateChange"
+  >
+    <view class="picker ">
+      : {{date}}
+    </view>
+  </picker>
+</view>
+<view class="alltitle">
+<rich-text>文章留言：<input type="text" class='border' /></rich-text>
+</view>
+<button>提交</button>
+
