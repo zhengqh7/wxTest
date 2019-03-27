@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="tr">
+<navigator  url='../lyb/lyb'>
+<image src="../../images/1.jpg"
+style="width: 358px;" mode ="widthFix"></image></navigator>
+</view>
+<view class="tr">
+<navigator  url='../map/map'>
+<image src="../../images/2.jpg"
+style="width: 358px;" mode ="widthFix"></image></navigator>
+</view>
