@@ -3,9 +3,7 @@
 <image src="../../images/23.jpg" 
 style="width: 358px;" mode ="widthFix"></image>
 </view>
-<view class="tr">
 
-</view>
 
 <view class="tr">
 <navigator url='../index/index'>
@@ -14,10 +12,11 @@ style="width: 76px;" mode ="widthFix"></image></navigator>
 <navigator  url='../lists/lists'>
 <image src="../../images/home2_r5_c2.gif"
 style="width: 88px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Tools/tools'>
+<navigator  url='../lyb/lyb'>
 <image src="../../images/home2_r5_c4.gif"
-style="width: 98px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Login/login'>
+style="width: 98px;" mode ="widthFix"></image>
+</navigator>
+<navigator  url='../map/map'>
 <image src="../../images/home2_r5_c6.gif"
 style="width: 103px;" mode ="widthFix"></image></navigator>
 </view>
