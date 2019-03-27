@@ -36,14 +36,14 @@ J173236|danmeikeng|5|0|0|0|0
 j173302|zmc89|5|5|5|5|0
 j173303|wengezuishuai|6|0|0|0|0
 j173304|chenjx1|5|0|0|0|0
-j173305|chencaifa|5|0|0|0|0
+j173305|chencaifa|5|5|5|5|0
 j173306|xiajianhua|5|0|0|0|0
 j173307|fanaruto|5|5|5|5|0
-j173308|linjinfu|6|0|0|0|0
+j173308|linjinfu|6|5|5|5|0
 j173309|stlyh594|5|5|0|0|0
 j173310|tangchenzz|5|5|0|0|0
 j173311|lajidongxi|5|0|0|0|0
-j173313|LIYIXUNDQ|5|5|0|0|0
+j173313|LIYIXUNDQ|5|5|5|0|0
 j173314|aqin666|6|5|0|0|0
 j173315|lwshuaibi|5|5|5|5|0
 j173316|songshumeng|5|5|5|0|0
