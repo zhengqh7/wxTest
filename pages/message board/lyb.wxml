@@ -50,7 +50,7 @@
   </picker>
 </view>
 
-<view class="xm">
+<view class="v">
 <view >留言栏</view>
 <view class="text"><input value="" type="text" class='v'/></view>
 </view>
