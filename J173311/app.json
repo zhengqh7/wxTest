@@ -6,8 +6,12 @@
     "pages/lists/lists",
     "pages/orders/orders",
     "pages/Login/login",
-    "pages/Tools/tools"
+    "pages/Tools/tools",
+    "pages/message board/message board",
+    "pages/ditu/ditu"
   ],
+
+  
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
