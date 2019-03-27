@@ -43,10 +43,6 @@
   </label> 
   <label>
     <checkbox value="eat"/>
-    玩电脑
-  </label> 
-  <label>
-    <checkbox value="eat"/>
     玩手机
   </label> 
 </checkbox-group>
@@ -75,6 +71,7 @@
 </view>
 
 <view>
-<rich-text>文章留言：<input type="text" class='b' /></rich-text>
+<rich-text>留言板：<input type="text" class='b' /></rich-text>
+<text class='z'></text>
 <text class='z'></text>
 </view>

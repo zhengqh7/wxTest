@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.4",
 	"appid": "touristappid",
-	"projectname": "LYB",
+	"projectname": "hdr",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
