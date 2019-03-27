@@ -1,0 +1,8 @@
+<!--pages/lyb/lyb.wxml-->
+<text>留言板</text>
+<view>
+
+<textarea rows="2" name="textName" id="textId">  
+</textarea>  
+<input type="button" value='提交'></input>
+</view>
