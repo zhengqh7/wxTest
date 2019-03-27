@@ -6,8 +6,9 @@
     "pages/lists/lists",
     "pages/orders/orders",
     "pages/Login/login",
-    "pages/Tools/tools",
-    "pages/lyb/lyb"
+    "pages/Wxmls/wxml",
+    "pages/lyb/lyb",
+    "pages/Wxmls2/wxml2"
   ],
   "window": {
     "backgroundTextStyle": "light",

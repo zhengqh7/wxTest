@@ -9,21 +9,10 @@ style="width: 358px;" mode ="widthFix"></image>
 </view>
 
 <view class="tr">
-<image src="../../images/home2_r3_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r3_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
+<navigator url='../Wxmls/wxml'>学习WXML第一部分</navigator>
 </view>
-
 <view class="tr">
-<image src="../../images/home2_r4_c1.gif"
-style="width: 212px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c3.gif"
-style="width: 229px;" mode ="widthFix"></image>
-<image src="../../images/home2_r4_c5.gif"
-style="width: 217px;" mode ="widthFix"></image>
+<navigator url='../Wxmls2/wxml2'>学习WXML第二部分</navigator>
 </view>
 
 <view class="tr">
