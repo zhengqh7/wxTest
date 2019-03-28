@@ -27,13 +27,16 @@
 爱好：<checkbox-group bindchange="checkboxChange">
   <label>
     <checkbox value="eat"/>
-   唱歌
+    吃
   </label> 
   <label>
     <checkbox value="eat"/>
     跳舞
   </label> 
-  
+  <label>
+    <checkbox value="eat"/>
+    弹琴
+  </label> 
   <label>
     <checkbox value="eat"/>
    运动
