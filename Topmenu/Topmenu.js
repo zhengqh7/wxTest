@@ -13,11 +13,16 @@ Component({
   data: {
 
   },
-
-  /**
-   * 组件的方法列表
-   */
+  attached() {
+  },
   methods: {
-
+    switchTab(e) {
+      const data = e.currentTarget.dataset
+      const url = data.path
+      wx.switchTab({ url })
+      this.setData({
+        selected: data.index
+      })
+    }
   }
 })
