@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "usingComponents": {
       "TopMenu": "/Topmenu/Topmenu",
       "TabBar": "/custom-tab-bar/index"
   }
+=======
+{
+  "usingComponents": {
+      "TopMenu": "/Topmenu/Topmenu",
+      "TabBar": "/custom-tab-bar/index"
+  }
+>>>>>>> 961ee8632be9b0e718ab19666a88d2a9259bbdb5
 }
