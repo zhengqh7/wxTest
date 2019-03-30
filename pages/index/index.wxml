@@ -1,8 +1,6 @@
 <!--index.wxml-->
-<view class="tr">
-<image src="../../images/home2_r1_c1.gif" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
+<TopMenu my-property="myTopMenu" />
+
 <view class="tr">
 <image src="../../images/home2_r2_c1.gif" 
 style="width: 358px;" mode ="widthFix"></image>
@@ -14,18 +12,5 @@ style="width: 358px;" mode ="widthFix"></image>
 <view class="tr">
 <navigator url='../Wxmls2/wxml2'>学习WXML第二部分</navigator>
 </view>
-
-<view class="tr">
-<navigator url='../index/index'>
-<image src="../../images/home2_r5_c1.gif"
-style="width: 76px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lists/lists'>
-<image src="../../images/home2_r5_c2.gif"
-style="width: 88px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lyb/lyb'>
-<image src="../../images/home2_r5_c4.gif"
-style="width: 98px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Login/login'>
-<image src="../../images/home2_r5_c6.gif"
-style="width: 103px;" mode ="widthFix"></image></navigator>
-</view>
+1234
+<TabBar my-property="myTabbar" />

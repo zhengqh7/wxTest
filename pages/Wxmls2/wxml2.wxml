@@ -35,7 +35,7 @@ is 属性可以使用 Mustache 语法，来动态决定具体需要渲染哪个�
 <template name="even">
   <view>even{{time}}</view>
 </template>
-<block wx:for="{{[1, 2, 3, 4, 5]}}">
+<block wx:for="{{[1, 2, 3, 4, 5]}}" wx:key="index">
   <template is="{{item % 2 == 0 ? 'even' : 'odd'}}" data="{{...item2}}" />
 </block>
 

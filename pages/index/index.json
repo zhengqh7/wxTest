@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+      "TopMenu": "/Topmenu/Topmenu",
+      "TabBar": "/custom-tab-bar/index"
+  }
 }
