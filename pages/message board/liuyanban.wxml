@@ -1,7 +1,0 @@
-<!--pages/message board/liuyanban.wxml-->
-<text>pages/message border/liuyanban.wxml</text>
-
-<view class='wd'>
-     <view class='text'>姓名：</view>
-     <view><input type="text"/></view>
-</view>
