@@ -8,7 +8,9 @@
     "pages/Login/login",
     "pages/Wxmls/wxml",
     "pages/lyb/lyb",
-    "pages/Wxmls2/wxml2"
+    "pages/Wxmls2/wxml2",
+    "pages/calc/calc",
+    "pages/lxjsq/lxjsq"
   ],
   "tabBar": {
     "custom": true,

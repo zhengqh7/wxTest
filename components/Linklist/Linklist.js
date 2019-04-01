@@ -16,7 +16,13 @@ Component({
     }, {
       pagePath: "/pages/table/table",
       text: "环境配置"
-    }
+      }, {
+        pagePath: "/pages/calc/calc",
+        text: "计算器"
+      }, {
+        pagePath: "/pages/lxjsq/lxjsq",
+        text: "利息计算器"
+      }
     ],
   },
   attached() {
