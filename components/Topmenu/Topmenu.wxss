@@ -1,0 +1,24 @@
+/* 首页移动导航栏 */
+movable-view {
+  display: flex;
+  justify-content: center;
+  left:0px;
+  height: 60rpx;
+  width: 530rpx;
+  background: #ccc;
+  color: #fff;
+  white-space: nowrap;
+}
+movable-area {
+  display: flex;
+  justify-content: right;
+  height: 60rpx;
+  width: 1200rpx;
+  margin: 0rpx;
+  background-color: #ccc;
+  overflow: hidden;
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 0rpx;
+}

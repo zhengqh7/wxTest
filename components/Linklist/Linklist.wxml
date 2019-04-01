@@ -1,0 +1,6 @@
+<view class="tr">
+<navigator url='/pages/Wxmls/wxml'>学习WXML第一部分</navigator>
+</view>
+<view class="tr">
+<navigator url='/pages/Wxmls2/wxml2'>学习WXML第二部分</navigator>
+</view>
