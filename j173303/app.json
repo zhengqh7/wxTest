@@ -7,12 +7,13 @@
     "pages/orders/orders",
     "pages/Login/login",
     "pages/Tools/tools",
-    "pages/lyb/lyb"
+    "pages/message board/message board",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "爱购物",
+    "navigationBarTitleText": "666",
     "navigationBarTextStyle": "black"
   }
 }
