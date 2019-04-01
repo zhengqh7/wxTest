@@ -1,49 +1,29 @@
 /* swipelist/swipelist.wxss */
 .contentBottom {
-    padding: 20rpx 0;
+    padding: 0rpx;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #f8e1da;
-}
-.BottomFirst {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #663a83;
-    box-sizing: border-box;
-    margin: 0 auto;
+    background: rgb(245, 46, 46);
+    height:38rpx;
 }
 .tab-right {
-    width: 90%;
-    margin: 20rpx auto;
-    height: 405rpx;
+    width: 99%;
+    height: 38rpx;
 }
 .right-item {
-    padding: 0 20rpx;
-    background: #fbeeed;
-    height: 100%;
-    width: 100%;
     box-sizing: border-box;
-}
-.content-item {
-    height: 100rpx;
-    border-bottom: 1px solid #ede1d4;
-    width: 95%;
 }
 .name {
     font-size: 26rpx;
+    margin-left: 10px;
     float: left;
-    line-height: 100rpx;
-    color: #b0aaa9;
-    margin-left: 20rpx;
-    width: 40%;
+    color: #fff;
+    width: 15%;
     height:100%;
-    overflow: hidden;
 }
 .wawa {
     font-size: 26rpx;
-    float: right;
-    line-height: 100rpx;
-    color: #999;
+    float:left;
+    color: #fff;
 }

@@ -19,3 +19,4 @@
     </view>
   </block>
 </view>
+<TabBar />

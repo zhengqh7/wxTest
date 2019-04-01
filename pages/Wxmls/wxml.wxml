@@ -53,3 +53,4 @@ wx:for 也可以嵌套，下边是一个九九乘法表
   {{item}}
 </switch>
 <button bindtap="addNumberToFront">添加一项</button>
+<TabBar />

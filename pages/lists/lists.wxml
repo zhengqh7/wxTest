@@ -45,3 +45,4 @@
     <button form-type="reset">Reset</button>
   </view>
 </form>
+<TabBar />

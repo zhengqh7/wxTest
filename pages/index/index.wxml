@@ -1,11 +1,9 @@
 <!--index.wxml-->
 <TopMenu  />
-
 <view class="tr">
-<image src="../../images/home2_r2_c1.gif" 
+<image src="../../images/home.png" 
 style="width: 358px;" mode ="widthFix"></image>
 </view>
-
-<LinkList />
 <Swipelist />
+<LinkList />
 <TabBar />

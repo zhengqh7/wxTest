@@ -5,7 +5,7 @@ movable-view {
   left:0px;
   height: 60rpx;
   width: 530rpx;
-  background: #ccc;
+  background: #999;
   color: #fff;
   white-space: nowrap;
 }
@@ -15,7 +15,7 @@ movable-area {
   height: 60rpx;
   width: 1200rpx;
   margin: 0rpx;
-  background-color: #ccc;
+  background-color: #999;
   overflow: hidden;
 }
 .page-section{

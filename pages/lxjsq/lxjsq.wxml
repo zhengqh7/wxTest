@@ -16,4 +16,4 @@
 <button  class="itemx" size="mini" bindtap='jslx'>计算</button>
 <text>应还本息：{{inputValue}}</text>
 </view>
-
+<TabBar />

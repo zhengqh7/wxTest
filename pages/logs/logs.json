@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "查看启动日志",
-  "usingComponents": {}
+  "usingComponents": {
+    "TabBar": "/components/custom-tab-bar/index"
+  }
 }

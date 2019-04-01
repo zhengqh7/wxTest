@@ -1,20 +1,35 @@
+const app = getApp()
 Component({
   data: {
-    selected: 0,
+    selected: app.globalData.selected,
     color: "#7A7E83",
     selectedColor: "#3cc51f",
-    list: [{
+    list: [
+      {
+      pagePath: "/pages/index/index",
+      iconPath: "/images/icon_home.jpg",
+      selectedIconPath: "/images/icon_home_2.jpg",
+      text: "首页"
+      }, 
+      {
+        pagePath: "/pages/lists/lists",
+        iconPath: "/images/icon_list.jpg",
+        selectedIconPath: "/images/icon_list_2.jpg",
+        text: "列表"
+      },  
+      {
       pagePath: "/pages/lyb/lyb",
-
       iconPath: "/images/icon_component.png",
       selectedIconPath: "/images/icon_component_HL.png",
-      text: "组件"
-    }, {
-        pagePath: "/pages/lyb/lyb",
+      text: "案例"
+      }, 
+      {
+      pagePath: "/pages/lyb/lyb",
       iconPath: "/images/icon_API.png",
       selectedIconPath: "/images/icon_API_HL.png",
-      text: "接口"
-    }]
+      text: "设置"
+    }
+    ]
   }, 
   attached() {
   },
@@ -22,9 +37,10 @@ Component({
     switchTab(e) {
       const data = e.currentTarget.dataset
       const url = data.path
+      app.globalData.selected = 1
       wx.switchTab({url})
       this.setData({
-        selected: data.index
+        selected: data.index,
       })
     }
   }

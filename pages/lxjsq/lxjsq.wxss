@@ -22,15 +22,3 @@
   border-width:thin;
   border-color:blue;
 }
-.h1{
-  color:#f0c1b6;
-  font-size:x-large;
-  font-weight:bold;
-  margin:20px;
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
