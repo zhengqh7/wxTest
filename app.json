@@ -9,7 +9,8 @@
     "pages/Tools/tools",
     "pages/lyb/lyb",
     "pages/Login/map/map",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/lxjsq/lxjsq"
   ],
   "window": {
     "backgroundTextStyle": "light",
