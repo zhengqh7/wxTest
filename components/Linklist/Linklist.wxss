@@ -8,6 +8,6 @@
 .tb {
   margin:0px;
   width: 100%;
-  height:600rpx;
+  height:320rpx;
   background-color: #fee;
 }

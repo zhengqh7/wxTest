@@ -2,6 +2,7 @@
 const app = getApp()
 Page({
   data: {
+    userInfo: {},
     message: 'Hello MINA!',
     array: [1, 2, 3],
     view: 'APP',
@@ -22,8 +23,17 @@ Page({
       { id: 1, unique: 'unique_1' },
       { id: 0, unique: 'unique_0' },
     ],
-    numberArray: [1, 2]
 
+    numberArray: [1, 2],
+    item1: { index: 0, msg: 'template', time: '2016-09-15' },
+    item2: { index: 1, msg: 'template2', time: '2017-09-15' },
+    staffA: { firstName: 'Hulk', lastName: 'Hu' },
+    staffB: { firstName: 'Shang', lastName: 'You' },
+    staffC: { firstName: 'Gideon', lastName: 'Lin' },
+  },
+
+  tapName(event) {
+    console.log(event)
   },
 
   //添加add事件开始
@@ -69,6 +79,24 @@ Page({
  //体验wx:key
 
   onLoad: function () {
+    this.setData({
+      userInfo: app.globalData.userInfo,
+    })
+    
+    if (wx.openBluetoothAdapter) {
+      wx.openBluetoothAdapter()
+      wx.showModal({
+        title: '提示',
+        content: '当前微信版本支持蓝牙接口。'
+      })
+    } else {
+      // 如果希望用户在最新版本的客户端上体验您的小程序，可以这样子提示
+      wx.showModal({
+        title: '提示',
+        content: '当前微信版本过低，无法使用该功能，请升级到最新微信版本后重试。'
+      })
+    }
+
   },
 
 })

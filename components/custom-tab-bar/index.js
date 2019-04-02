@@ -12,7 +12,7 @@ Component({
       text: "首页"
       }, 
       {
-        pagePath: "/pages/lists/lists",
+        pagePath: "/pages/table/table",
         iconPath: "/images/icon_list.jpg",
         selectedIconPath: "/images/icon_list_2.jpg",
         text: "列表"
@@ -33,11 +33,15 @@ Component({
   }, 
   attached() {
   },
+  onLoad: function (options) {
+    console.log("aaaa" + app.globalData.selected);
+  },
   methods: {
     switchTab(e) {
       const data = e.currentTarget.dataset
       const url = data.path
-      app.globalData.selected = 1
+      app.globalData.selected = data.index
+      console.log(data.index);
       wx.switchTab({url})
       this.setData({
         selected: data.index,

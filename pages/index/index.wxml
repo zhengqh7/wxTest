@@ -1,6 +1,10 @@
 <!--index.wxml-->
-<TopMenu  />
+<TopMenu />
 <pmdggl />
 <Swipelist />
 <LinkList />
+
+<button size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+{{userInfo.nickName}}
+
 <TabBar />

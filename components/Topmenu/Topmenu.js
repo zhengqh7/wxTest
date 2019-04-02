@@ -1,4 +1,5 @@
 // Topmenu/Topmenu.js
+const app = getApp()
 Component({
   data: {
     TopMenuList: [{
@@ -22,5 +23,11 @@ Component({
   attached() {
   },
   methods: {
+    onLoad() {
+      console.log('onLoad'),
+      this.setData({
+        userInfo: app.globalData.userInfo,
+      })
+    }
   }
 })

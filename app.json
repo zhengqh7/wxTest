@@ -3,12 +3,10 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/table/table",
-    "pages/lists/lists",
     "pages/orders/orders",
     "pages/Login/login",
     "pages/Wxmls/wxml",
     "pages/lyb/lyb",
-    "pages/Wxmls2/wxml2",
     "pages/calc/calc",
     "pages/lxjsq/lxjsq"
   ],
@@ -26,7 +24,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/lists/lists",
+        "pagePath": "pages/table/table",
         "iconPath": "images/icon_list.jpg",
         "selectedIconPath": "/images/icon_list_2.jpg",
         "text": "列表"

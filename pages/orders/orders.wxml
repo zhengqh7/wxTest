@@ -2,7 +2,7 @@
 <text>pages/orders/orders.wxml</text>
 <view class='container'>
   <!-- 订单列表 -->
-  <block wx:for-items="{{carInfoData}}">
+  <block  wx:key="" wx:for-items="{{carInfoData}}">
     <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.id}}">
       <view class='nearCard-fl'>
         <image src='{{item.imgurl}}'></image>
