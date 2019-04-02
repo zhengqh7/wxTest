@@ -1,9 +1,6 @@
 <!--index.wxml-->
 <TopMenu  />
-<view class="tr">
-<image src="../../images/home.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
+<pmdggl />
 <Swipelist />
 <LinkList />
 <TabBar />

@@ -5,3 +5,9 @@
   justify-content: left;
   align-items: left;
 }
+.tb {
+  margin:0px;
+  width: 100%;
+  height:600rpx;
+  background-color: #fee;
+}
