@@ -2,7 +2,7 @@
 movable-view {
   display: flex;
   justify-content: center;
-  left:72px;
+  left:96px;
   height: 60rpx;
   width: 530rpx;
   background: #999;
@@ -13,7 +13,7 @@ movable-area {
   display: flex;
   justify-content: center;
   height: 60rpx;
-  width: 1200rpx;
+  width: 1800rpx;
   margin: 0rpx;
   background-color: #999;
   overflow: hidden;

@@ -24,7 +24,7 @@ Component({
       text: "案例"
       }, 
       {
-      pagePath: "/pages/lyb/lyb",
+        pagePath: "/pages/logs/logs",
       iconPath: "/images/icon_API.png",
       selectedIconPath: "/images/icon_API_HL.png",
       text: "设置"

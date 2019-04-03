@@ -11,9 +11,9 @@
   align-items: center;
 }
 .td {
-    width:40%;
-    justify-content: center;
-    text-align: center;
+  width:40%;
+  justify-content: center;
+  text-align: center;
 }
 .bg-w{
   background: snow;
