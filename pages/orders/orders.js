@@ -15,42 +15,37 @@ Page({
       "datas": [
         {
           "id": 1,
-          "imgurl":"../../images/car.png",
-          "useDate":"2017-12-22",
-          "cx":"奇瑞EQ1",
-          "time":"1小时",
-          "feiyong":"20元"
+          "imgurl":"/images/car.png",
+          "title":"微信小程序开发技巧1111",
+          "wzgs":"微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一",
+          "cate": "推荐文章",          
+          "fbsj":"2019.4.2",
+          "purl":"/pages/orders/orders"
         },
         {
           "id": 2,
-          "imgurl":"../../images/car.png",
-          "useDate":"2017-12-22",
-          "cx":"奇瑞EQ1",
-          "time":"1小时",
-          "feiyong":"21元"
+          "imgurl": "/images/car.png",
+          "title": "微信小程序开发技巧222222",
+          "wzgs": "微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一",
+          "cate": "推荐文章",         
+          "fbsj": "2019.4.2",
+          "purl": "/pages/orders/orders"
         },
         {
           "id": 3,
-          "imgurl":"../../images/car.png",
-          "useDate":"2017-12-22",
-          "cx":"奇瑞EQ1",
-          "time":"1小时",
-          "feiyong":"22元"
+          "imgurl": "/images/car.png",
+          "title": "微信小程序开发技巧333333",
+          "wzgs": "微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一微信小程序开发技巧一",
+          "cate": "推荐文章",   
+          "fbsj": "2019.4.2",
+          "purl": "/pages/orders/orders"
         },
-        {
-          "id": 4,
-          "imgurl":"../../images/car.png",
-          "useDate":"2017-12-22",
-          "cx":"奇瑞EQ1",
-          "time":"1小时",
-          "feiyong":"23元"
-        }
       ]
     };
     //console.log(data.datas);
     //设置车辆展示信息
     that.setData({
-      carInfoData: data.datas
+      messInfoData: data.datas
     })
   },
   //点击切换隐藏和显示
