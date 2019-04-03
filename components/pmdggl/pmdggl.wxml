@@ -7,7 +7,7 @@
       <block wx:for-index="idx" wx:key="index" wx:for='{{imgList}}'>
         <swiper-item>
           <view class='content-item'>
-            <navigator class='wawa' url="{{item.pagePath}}"><image src="{{item.imagePath}}" style="width: 360px;" mode ="widthFix"></image></navigator>
+            <navigator class='wawa' url="{{item.pagePath}}"><image src="{{item.imagePath}}" style="width: 368px;" mode ="widthFix"></image></navigator>
           </view>
         </swiper-item>
       </block>          

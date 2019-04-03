@@ -1,7 +1,13 @@
-const app = getApp()
 Component({
+  properties: {
+    selected: { // 属性名
+      type: Number, 
+      value: 0, 
+      observer(newVal, oldVal, changedPath) {
+      }
+    },
+  },
   data: {
-    selected: app.globalData.selected,
     color: "#7A7E83",
     selectedColor: "#3cc51f",
     list: [
@@ -34,17 +40,15 @@ Component({
   attached() {
   },
   onLoad: function (options) {
-    console.log("aaaa" + app.globalData.selected);
+
   },
   methods: {
     switchTab(e) {
       const data = e.currentTarget.dataset
       const url = data.path
-      app.globalData.selected = data.index
-      console.log(data.index);
       wx.switchTab({url})
       this.setData({
-        selected: data.index,
+       /* selected: data.index, */
       })
     }
   }

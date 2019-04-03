@@ -21,4 +21,5 @@
 <button bindtap='submit'>附上留言</button>
 </form>
 </view>
-<TabBar />
+
+<TabBar selected='2' />
