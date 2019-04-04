@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/lists/lists",
+    "pages/orders/orders",
+    "pages/Login/login",
+    "pages/Wxmls/wxml",
+    "pages/lyb/lyb",
+    "pages/Wxmls2/wxml2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "带夏喵去旅行",
+    "navigationBarTextStyle": "black"
+  }
+}
