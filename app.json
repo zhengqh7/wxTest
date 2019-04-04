@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/lxjsq/lxjsq",
     "pages/index/index",
     "pages/logs/logs",
     "pages/table/table",
@@ -13,7 +14,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "数字旅者",
+    "navigationBarTitleText": "addText",
     "navigationBarTextStyle": "black"
   }
 }
