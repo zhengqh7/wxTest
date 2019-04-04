@@ -1,5 +1,5 @@
 <!--pages/orders/orders.wxml-->
-<text class="h1">文章列表</text>
+<text class="h1">{{id}}.{{title}}-文章列表</text>
 <view class='container'>
   <block  wx:key="" wx:for-items="{{messInfoData}}">
     <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.id}}">
@@ -13,7 +13,7 @@
       <view class='down clearfix {{uhide==item.id?"":"hidden"}}'>
         <view class='ml30'>分类：{{item.cate}}</view>
         <view class='ml30'>发布时间：{{item.fbsj}}</view>
-        <view class='feedBack'>打开阅读</view>
+        <view class='feedBack'><navigator url="/pages/pitems/pitems?id={{item.id}}">打开阅读</navigator></view>
       </view>
     </view>
   </block>

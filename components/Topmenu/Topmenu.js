@@ -14,19 +14,19 @@ Component({
 
   data: {
     TopMenuList: [{
-      pagePath: "/pages/orders/orders",
+      pagePath: "/pages/orders/orders?id=1",
       text: "文章推荐"
     }, {
-      pagePath: "/pages/orders/orders",
+      pagePath: "/pages/orders/orders?id=2",
         text: "经典代码"
       }, {
-        pagePath: "/pages/orders/orders",
+        pagePath: "/pages/orders/orders?id=3",
         text: "应用案例"
       }, {
-        pagePath: "/pages/orders/orders",
+        pagePath: "/pages/orders/orders?id=4",
         text: "服务购买"
       }, {
-        pagePath: "/pages/orders/orders",
+        pagePath: "/pages/orders/orders?id=5",
         text: "环境配置"
       }
     ],

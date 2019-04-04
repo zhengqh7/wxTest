@@ -2,7 +2,7 @@
 movable-view {
   display: flex;
   justify-content: center;
-  left:90px;
+  left:95px;
   height: 60rpx;
   width: 530rpx;
   background: #999;

@@ -4,13 +4,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    uhide: 0
+    id:1,
+    title:"推荐文章",
+    uhide: 0,
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     var that = this;
+    console.log(options.title);
     var data = {
       "datas": [
         {
@@ -42,10 +45,11 @@ Page({
         },
       ]
     };
-    //console.log(data.datas);
     //设置车辆展示信息
     that.setData({
-      messInfoData: data.datas
+      messInfoData: data.datas,
+      id: options.id,
+      title: options.title
     })
   },
   //点击切换隐藏和显示

@@ -4,11 +4,11 @@
     "pages/logs/logs",
     "pages/table/table",
     "pages/orders/orders",
-    "pages/Login/login",
     "pages/Wxmls/wxml",
     "pages/lyb/lyb",
     "pages/calc/calc",
-    "pages/lxjsq/lxjsq"
+    "pages/lxjsq/lxjsq",
+    "pages/pitems/pitems"
   ],
   "tabBar": {
     "custom": true,
