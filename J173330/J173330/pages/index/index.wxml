@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="tr">
+<navigator  url='../lyb/lyb'>
+<image src="../../images/1.jpg"
+style="width: 358px;" mode ="widthFix"></image></navigator>
+</view>
+<view class="tr">
+<navigator  url='../map/map'>
+<image src="../../images/2.jpg"
+style="width: 358px;" mode ="widthFix"></image></navigator>
+</view>
+
+<view class="td" style="flex-direction:row;">
+  <view class="td">
+  <navigator  url='../index/index'><image src="../../images/ICON_home.jpg"
+style='width:30px;' mode='widthFix'></image></navigator>
+</view>
+<view class="td">
+ <navigator  url='../lt/lt'><image src="../../images/icon_list.jpg"
+style='width:30px;' mode='widthFix'></image></navigator>
+</view>
+<view class="td">
+<image src="../../images/icon_component.png"
+style='width:30px;' mode='widthFix'></image>
+</view>
+<view class="td">
+<image src="../../images/icon_API.png"
+style='width:30px;' mode='widthFix'></image>
+</view>
+
+</view>
