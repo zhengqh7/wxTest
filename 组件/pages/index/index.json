@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "LinkList": "/components/Linklist/Linklist",
-    "zqh": "/components/zqh/zqh"
-  }
-}
