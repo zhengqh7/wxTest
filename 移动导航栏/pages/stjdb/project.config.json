@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -12,9 +12,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wx1ac567d7ae92965b",
-	"projectname": "ECMS",
+	"libVersion": "2.6.4",
+	"appid": "wxcc2027981f3343fe",
+	"projectname": "gtr",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
